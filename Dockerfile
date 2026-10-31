@@ -1,4 +1,4 @@
-FROM python:3.14.10
+FROM python:3.14.10-slim
 
 LABEL org.opencontainers.image.source=https://github.com/kulminaator/docker-4-mistral-vibe
 LABEL org.opencontainers.image.description="Docker image for running Mistral Vibe in a container"
